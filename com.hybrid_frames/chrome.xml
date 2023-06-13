@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="com.hybrid_frames">
+
+	<listeners>
+		<listener class-name="com.lumacart.utilities.Reporting" />
+	</listeners>
+
+	<test name="lumacart test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.lumacart.testcases.Tc_001_login" />
+		</classes>
+	</test>
+</suite>
